@@ -1,9 +1,10 @@
 import javax.swing.JOptionPane;
 
-public class Funcoes {
+public class Funcoes{
 	public static void main(String[] args) {
 		// calcular gasto com banho do Biel
 
+		
 		taxa(Integer.parseInt(JOptionPane.showInputDialog("Loja 1: ")),
 				Integer.parseInt(JOptionPane.showInputDialog("Loja 2: ")));
 
