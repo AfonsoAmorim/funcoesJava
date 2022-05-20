@@ -11,13 +11,15 @@ public class Funcoes {
 
 	static void taxa(double a, double b) {
 		if (a < b) {
-			System.out.printf("Escolher a Loja1, valor do desconto é R$ " + (a / 100) * 10);
+			double num = (a / 100) * 10;
+			System.out.println("Escolher a Loja1, valor total com desconto é R$ " + (a+num));
 		} else if (b < a) {
-			System.out.printf("Escolher a Loja2, valor do desconto é R$ " + (b / 20) * 10);
+			double num2 = (b / 20) * 10;
+			System.out.println("Escolher a Loja2, valor total com desconto é R$ " +  (b + num2));
 		} else {
 			System.out.println("Escolher a mais próxima de casa!");
 		}
-		System.out.println();
+	
 	}
 
 }
